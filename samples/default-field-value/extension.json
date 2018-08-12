@@ -6,13 +6,10 @@
   "parameters": {
     "instance": [
       {
-        "id": "defaultColor",
-        "name": "Default color",
-        "description": "Set which color is the default color",
-        "type": "Enum",
-        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],
-        "labels": {"empty": "Choose a color"},
-        "required": true
+        "id": "defaultValue",
+        "name": "Default value",
+        "description": "Set a default value",
+        "type": "Symbol"
       }
     ]
   }
